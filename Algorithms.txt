@@ -1,0 +1,63 @@
+Implement an algorithm for determining if an Nth is a divisor of an n Number (i.e. 2 is a divisor of 6).
+If so, determine if it’s an even number or odd number as well.
+
+Ask the user to input two number N and n
+Set a=n/N
+If a is a whole number
+Display that N is a divisor of n
+Set b=N/2
+If b is a whole number 
+Display that N is an even number
+Else display that N is an odd number
+If a is not a whole number 
+Display N is not a divisor of n. 
+
+
+Implement an algorithm where the user enters a number, and an appropriate month is displayed.
+
+Ask the user to input a number 
+If nummber=1
+Display January
+If number=2
+Display February 
+If number=3 
+Display March
+If number=4
+Display April
+If number=5
+Display May
+If number=6
+Diplay June
+If number=7
+Display July
+If number=8
+Display August
+If number=9
+Display September
+If number=10 
+Display October
+If number=11
+Display November
+If number=12
+Display December
+If number is greater than 12 or less than 1 
+Display Invalid Input 
+
+
+Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
+
+Ask the user to input num1
+Ask the user input num2
+Ask the user to input operator
+If operator=+
+Set a=num1+num2
+Display a 
+If operator=-
+Set a=num1-num2
+Display a
+If operator=*
+Set a=num1*num2
+Display a
+If operator=/
+Set a=num1/num2
+Display a
