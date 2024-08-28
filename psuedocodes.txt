@@ -1,0 +1,45 @@
+Programming Fundamentals Fall 2024 LAB 2 assignment:
+
+PSUEDOCODES:
+
+Pseudocode to Find the maximum number in any of three variables;
+
+START
+INPUT num1,num2,num3
+IF  num1>=num2 AND num1>=num3
+   THEN DISPLAY num1 "is the maximum"
+IF num2>=num3 AND num2>=num1 
+  THEN DISPLAY num2 "is the maximum"
+IF num3>=num1 AND num3>=num2 
+   THEN DISPLAY num3 "is the maximum"
+END
+
+
+Psuedocode to take three variables as input and add them without using the + operator (Use your head for this)
+
+START
+INPUT num1,num2,num3
+SET a=num2*-1
+SET b=num3*-1
+SET x=num1-a-b
+DISPLAY x
+END
+
+
+Psueocode to Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with
+one being used for the operator)
+
+START
+INPUT num1,num2,operator
+IF operator=+
+   SET y=num1+num2
+   DISPLAY y
+ELSE 
+   SET y=num1-num2
+   DISPLAY y
+END
+
+
+
+
+
